@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka:pixelsize=28:antialias=true:autohint=true";
+static char *font = "Fira Code:pixelsize=28:antialias=true:autohint=true";
 static char *font2[] = { "NotoColorEmoji:pixelsize=20:antialias=true:autohint=true" };
 static int borderpx = 2;
 
@@ -107,7 +107,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 1.0;
+float alpha = 0.85f;
 float alphaOffset = 0.0;
 float alphaUnfocus;
 
